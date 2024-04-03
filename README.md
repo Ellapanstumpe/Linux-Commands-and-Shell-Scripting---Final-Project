@@ -115,7 +115,8 @@ mv $backupFileName $destAbsPath
 Task 14 : If you would like to verify if the my script is excutable, please download the backup.sh to your local computer and make sure save the file as backup.sh in order to make it work
 
 Task 15:  Verify the file is executable using the ls command with the -l option:
-<img src="https://github.com/Ellapanstumpe/Linux-Commands-and-Shell-Scripting---Final-Project/blob/main/15-executable.jpg" width="100">
+
+<img src="https://github.com/Ellapanstumpe/Linux-Commands-and-Shell-Scripting---Final-Project/blob/main/15-executable.jpg" width="500">
 
 
 Task 16
