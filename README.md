@@ -93,13 +93,7 @@ Task 10: Inside the for loop, you want to check whether the $file was modified w
 Task11:  In the if-then statement, add the $file that was updated in the past 24-hours to the toBackup array
 */
 
-
-for file in $(ls) do  // [TASK 9]
-  if ((`date -r $file +%s` > $yesterdayTS))  // [TASK 10]
-  then
-     toBackup+=($file) // [TASK 11]
-  fi
-done
+<img src="https://github.com/Ellapanstumpe/Linux-Commands-and-Shell-Scripting---Final-Project/blob/main/forloop.png" width="500">
 
 
 Task 12: After the for loop, compress and archive the files, using the $toBackup array of filenames, to a file with the name backupFileName.
@@ -140,6 +134,7 @@ touch important-documents/*
 This should have created a file called backup-[CURRENT_TIMESTAMP].tar.gz in your current directory
 Task 17: Take a screenshot of the output of ls -l and save as 16-backup-complete.jpg (or .png) 
 
+<img src="https://github.com/Ellapanstumpe/Linux-Commands-and-Shell-Scripting---Final-Project/blob/main/16-backup-complete.jpg" width="500">
 
 Test the cronjob to see if the backup script is getting triggered by scheduling it for every 1 minute.
 Please note that since the Theia Lab is a virtual environment, we need to explicitly start the cron service using the below command.
@@ -154,8 +149,10 @@ If yes, then please stop the cron service using the below command, else it will 
 Using crontab, schedule your /usr/local/bin/backup.sh script to backup the important-documents folder every 24 hours to the directory (/home/project).
 
 Take a screenshot of the output of crontab -l and save as 17-crontab.jpg (or .png)
-Ensure the cron service is running or start the cron service if need be, when you are setting up cron jobs in a real-life scenario.
-Task 18:  Save the current working file (backup.sh) with CTRL-S [Windows/Linux], ⌘-S [MAC] or navigating to File->Save as seen below:
 
+<img src="https://github.com/Ellapanstumpe/Linux-Commands-and-Shell-Scripting---Final-Project/blob/main/17-crontab.jpg" width="500">
+
+Ensure the cron service is running or start the cron service if need be, when you are setting up cron jobs in a real-life scenario.
+Task 18:  Save the current working file (backup.sh) with CTRL-S [Windows/Linux], ⌘-S [MAC] 
 
 
