@@ -106,7 +106,7 @@ Task 13: Now the file $backupFileName is created in the current working director
 # [TASK 13]
 mv $backupFileName $destAbsPath
 
-Task 14 : If you would like to verify if the my script is excutable, please download the backup.sh to your local computer and make sure save the file as backup.sh in order to make it work
+Task 14 : If you would like to verify if my script is excutable, please download the backup.sh to your local computer and make sure save the file as backup.sh in order to make it work
 
 Task 15:  Verify the file is executable using the ls command with the -l option:
 
